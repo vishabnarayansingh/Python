@@ -5,11 +5,18 @@ while i<=10:
 	i=i+1
 	print(i)
 
+print('##### Continue Loop With While ')
 x= 0
 while x<=10:
+	x=x+1
 	if x==5:
 		continue
-	x=x+1
-	print(i)
+	print(x) 
+x = 0
+print('##### Continue Loop With For ')
+for ite in range(1,10):
+    if ite == 5:
+        continue
+    print(ite)
 
 	
